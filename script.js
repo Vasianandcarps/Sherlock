@@ -70,5 +70,5 @@ let options = {
 let observer = new IntersectionObserver(handleIntersection, options);
 observer.observe(document.querySelector('.slide'));
 
-document.querySelector('.slide').addEventListener('click', resetAnimation);
+document.querySelector('.slide').addEventListener('click',resetAnimation);
 
